@@ -1,15 +1,8 @@
 package com.example.android.footballcounter;
 
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Html;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
@@ -27,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       // getSupportActionBar().setTitle(Html.fromHtml("<font color='#FFFFFF'>Football Counter</font>"));
         String jamesbond = "hi";
         String jamesBond = "hello";
         String s = jamesBond + jamesbond;
@@ -40,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
     }
 
+    //credits to https://stackoverflow.com/questions/4096169/onsaveinstancestate-and-onrestoreinstancestate
     @Override
     public void onSaveInstanceState(Bundle outState) {
         outState.putInt("scoreTeamA", scoreTeamA);
