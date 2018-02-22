@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scoreSize">112sp</dimen>
+    <dimen name="teamNameSize">24sp</dimen>
+    <dimen name="buttonMarginVertical">8dp</dimen>
+    <dimen name="buttonMarginHorizontal">24dp</dimen>
+    <dimen name="lineWidth">1dp</dimen>
+    <dimen name="teamNameMargin">4dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+</resources>
